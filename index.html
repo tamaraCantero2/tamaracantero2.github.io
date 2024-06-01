@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Mi Primera Web</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script
+      src="https://kit.fontawesome.com/df8de02fe9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Pacifico&family=Roboto:wght@100&family=UnifrakturCook:wght@700&family=UnifrakturMaguntia&family=Pirata+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/c9b87a4bee.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="contenedorPrincipal">
+      <header id="encabezado">
+        <!--  <a href="index.html" class="icono">
+        <i class="fa-solid fa-star"></i>
+      </a>-->
+        <img src="imagenes/item2.png" class="icono" />
+        <p class="texto">BIENVENIDA/O A MI WEB</p>
+
+        <nav class="navbar">
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+
+          <ul class="ul1">
+            <li><a href="index.html"> Inicio</a></li>
+            <li><a href="index.html">Acerca de mi!</a></li>
+            <li><a href="#habilidades">mis habilidades</a></li>
+            <li><a href="#redes1">redes</a></li>
+            <li><a href="#contactame">contáctame!</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="secc1d">
+          <section id="section1" class="section-1">
+              <div id="acerca-de" class="acerca-de">
+                <h2 class="titulo-sec1">Acerca De Mi</h2>
+                <p class="parrafo-2">
+                  Hola, me llamo Tamara Cantero,tengo 20 
+                  años, <br>no poseo experiencia laboral aun.
+                  Me encanta <br>aprender y enfrentar nuevos
+                  desafios. Tengo experiencia programando en java,
+                  y un poco <br>en otros lenguajes de programacion. 
+                  Tambien se manejar un poco de maven, hibernate y
+                  sql en java, algo de programacion web, y estoy
+                  estudiando por cuenta propia sobre mas lenguajes,
+                  frameworks y<br> mas. Encontraras  
+                  mis habilidades en lenguajes y <br>mis estudios mas 
+                  abajo en la pagina. Me gustaria encontrar trabajo
+                  como desarrolladora de <br>aplicaciones de 
+                  escritorio java, web, y en un futuro
+                  especializarme en el desarrollo de aplicaciones
+                  en multiples plataformas y en ciberseguridad.
+                  En un futuro planeo realizar proyectos personales
+                  <br>orientados hacia el entretenimiento y educacion.
+                </p>
+              </div>
+              <div class="div-mi-imagen">
+                <img
+                  src="imagenes/miFoto.png"
+                  alt="foto de Tamara Cantero"
+                  width="125"
+                  height="170"
+                  class="acerca-imagen"
+                />
+              </div>
+          </section>
+        </div>
+        
+        <section class="section-2">
+          <div class="presentacion-proyectos">
+            <h1>Proyectos</h1>
+            <p class="descripcion">Estos son los proyectos en los que he participado, en cada uno se mostrara una breve descripcion y prodran experimentar una pequeña prueba de la app</p>
+          </div>
+            <div class="secciones-proyectos">
+            <section id="hotel" class="proyecto">
+            <img
+                src="imagenes/portadaHotelArea512.png"
+                alt="mano de e.t. verde tocando una campana de recepcion, arriba de la imagen hay un titulo que dice hotel area 51, debajo de ella hay utexto que dice 'los aliens a veces no desean ir a casa, sino ir a un buen hotel'"
+                class="imgsproyects"
+                id="imgArea51"
+            />
+
+            <h2 class="tituloProyecto">Hotel Area 51</h2>
+            <p id="texto-a51" class="texto-proyecto">
+              Este es un proyecto escrito en lenguaje java, la app 
+              simula ser una aplicacion de escritorio para 
+              administrar un hotel que posee una tematica de area 51
+              y aliens, lo realizamos con un equipo conformado en el 
+              curso de Argentina Programa 4.0, fue el proyecto final 
+              para aprobar el curso y si lo logramos. Puede que
+              falten algunos detalles visuales, pero es realmente funcional.
+              <button popovertarget="imgHotel1"popovertargetaction="toggle">imagenes</button>
+          
+            </p>
+            
+            <span  id="imgHotel1" popover>
+              <img src="imagenes/iconoActivarIngles.png" alt="icono activar ingles=interruptor encendido" class="imgHotel">  
+              <button popovertarget="imgHotel2" popovertargetaction="imgHotel2">-></button>
+              <img src="imagenes/portadaHotelArea512.png" alt="" id="imgHotel2" class="imgHotel" popover>
+            </span>
+
+          </section>
+
+
+          <section id="tateti" class="proyecto">
+            <a class="a2" href="index.html">
+              <img
+                src="imagenes/tableroTaTeTi2.jpg"
+                alt="tablero de ta-te-tiy fichas de ta-te-ti con cruces y circulos"
+                class="imgsproyects"
+              />
+            </a>
+            <br />
+            <h2 class="tituloProyecto">Juego de Ta-Te-Ti</h2>
+
+            <p class="texto-proyecto">
+              En un futuro planeo crear un juego online de Ta-Te-Ti (o tres en raya) donde
+              se juegue contra la pc, esto escrito con el conjunto de
+              lenguajes html,css, javacript. Es un desafio personal
+               que planeo lograr.
+            </p>
+          </section>
+        </div>
+        </section>
+      </main>
+      
+      <footer>
+        <div id="habilidades">
+          <h2 id="tituloHabilidades">Habilidades</h2>
+
+            <ol class="listaHabilidades">
+              <li class="habilidad Java">Java</li>
+              <li class="habilidad HibernateYJpa">Hibernate y JPA</li>
+              <li class="habilidad Sql">Worbench y Xampp para trabajar con SQL</li>
+              <li class="habilidad Python">python basico</li>
+              <li class="habilidad Cibersecurity">ciberseguridad basico</li>
+              <li class="habilidad Html">Html 5 básico</li>
+              <li class="habilidad Css">Css 3</li>
+              <li class="habilidad Javascript">javascript basico</li>
+            </ol>
+        </div>
+        
+          <h3 id="redes">Redes</h3>
+          <ul id="redesList">
+            <li>Telefono:</li>
+            <li>Correo:</li> 
+            <li>Direccion:</li>
+            <li>Linkedin:</li>
+           <li>GitHub:</li>
+          </ul>
+      
+        <p id="contactame"></p>
+
+        <h3 id="contacto">Contacto</h3>
+
+        <div id="mensajeria">
+          <form action="" method="get" class="mensajero" id="formulario">
+            <div id="e1">
+              <label for="nombre" class="nombrelabel">Tu nombre:</label>
+              <input type="text" id="nombre" required />
+            </div>
+            <div id="e1">
+              <label for="correo" class="correolabel">Tu correo:</label>
+              <input type="email" id="correo" required />
+            </div>
+            <div id="e1">
+              <label for="mensaje1" class="mensaje1">Tu mensaje:</label>
+              <textarea name="mensaje" id="mensaje1" required></textarea>
+            </div>
+            <div id="e2">
+              <button TYPE="submit">Enviar</button>
+              <a id="anclaForm"></a>
+            </div>
+            <p id="alertas"></p>
+          </form>
+        </div>
+      </footer>
+      <footer class="footer2">
+        <p id="saludos" class="saludo">
+          ¡MUCHAS GRACIAS POR VISITAR MI PAGINA! QUE TENGAS BUENOS DIAS!
+        </p>
+        <p class="texto2">@TamaranianaProductions2023</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
