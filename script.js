@@ -24,10 +24,11 @@ const enviarMailAncla=document.getElementById("anclaForm");
 function enviarMailFuncion(event){
     event.preventDefault();
     const fd=new FormData(this);
-    
+    let subj=document.getElementById('nombre').value;
+    let asunt=document.getElementById('mensaje1').value;
     enviarMailAncla.setAttribute(
         'href',
-        "mailTo:stellarenergy55@gmail.com?subject=${fd.get('nombre')}&body=${fd.get('mensaje1')}"
+        "mailTo:stellarenergy55@gmail.com?subject="+subj+"&body="+asunt
     );
 
     enviarMailAncla.click();
