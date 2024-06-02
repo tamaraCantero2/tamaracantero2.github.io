@@ -1,7 +1,8 @@
 body{
 
     background-image: url(imagenes/fondo\ definitivo\ para\ repeat.png);
-    background-size: 100%;
+    background-size: 100vh 100vw;
+
     background-position-x: -450px;
     background-repeat: repeat-y;
 }
@@ -343,7 +344,6 @@ header{
     /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
     header{
         left: 0%;
-        background-color: aqua;
         height: 15%;
     }
     .texto{
