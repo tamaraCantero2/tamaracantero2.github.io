@@ -1,7 +1,7 @@
 body{
 
     background-image: url(imagenes/fondo\ definitivo\ para\ repeat.png);
-    background-size: 150%;
+    background-size: 100%;
     background-position-x: -450px;
     background-repeat: repeat-y;
 }
@@ -394,7 +394,11 @@ header{
     #check:checked ~.checkbtn{
         color: black;
     }
-    
+    #encabezado nav .ul1 li a:clicked{
+        #checked:unchecked ~ .checkbtn{
+            
+        }
+    }
     .section-1{
         background-color: magenta;
         display: block;
