@@ -1,8 +1,8 @@
 body{
 
     background-image: url(imagenes/fondo\ definitivo\ para\ repeat.png);
-    background-size: 100vh 100vw;
-
+    background-size: 100vw;
+    background-size: 290vh;
     background-position-x: -450px;
     background-repeat: repeat-y;
 }
@@ -419,7 +419,17 @@ header{
     }
 
 }
-
+@media(min-width:400px){
+    #saludos{
+        font-size: 8.5px;
+        margin-top:10%;
+    }
+    .texto2{
+        font-size: 20px;
+        left:20%;
+    }
+    
+}
 /*fuentes disponibles: 
 font-family: 'Dancing Script', cursive;
 font-family: 'DotGothic16', sans-serif;
