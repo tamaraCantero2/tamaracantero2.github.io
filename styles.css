@@ -72,43 +72,60 @@ header{
     left:5%;
 }
 .section-1{
+    display: grid;
+    width: 100vw;
+    height:100vh;
     
-    display: flex;
-    margin-top: 7%;
-    margin-inline-start: 25%;
-    margin-inline-end: auto;
+    margin-top: 90px;
+    margin-left: 370px; 
+    padding: 100px;
     background-image: url(imagenes/partapapeles1.png);
-    background-size: 60%;
+    background-size: 600px;
     background-repeat: no-repeat;
-    padding-bottom: 440px;
+    padding-bottom: 150px;
+    
+    grid-template-columns: 470px 50px;
+    gap: 0px 0px;
 }
-.acerca-de{
-    margin-top: 12%;
-    margin-left: 9%;
+/*.acerca-de{
+    margin-top: 15%;
+    margin-left: 12%;
     text-align: left;
     
-}
-.acerca-de .titulo-sec1{
-    margin-top: 32px;
+}*/
+/*.acerca-de*/ 
+.titulo-sec1{
     font-size: 25px;
-    
+    text-align: left;
+    margin:0px;
+    padding: 0px;
+    border:0px;
+    margin-left: 125px;
 }
 
-.acerca-de .parrafo-2{
-    margin-left: 10%;
+/*.acerca-de*/ 
+.parrafo-2{
     font-size: 20px;
+    text-align: left;
+    margin:0px;
+    padding: 0px;
+    border:0px;
+    margin-top: 10px;
+}
+#descripcion-div{
+    margin-left: 20px;
+    margin-top: 50px;
 }
 .acerca-imagen{
     width: 13em;
     height: 14em;
-    margin-right: 220px;
-    margin-top: 130px;
     background-color: white;
     border: 12px solid;
     border-color: #ffffff/25%;
     border-radius: 3%;
     border-style: outset;
-
+    margin:0px;
+    padding: 0px;
 }
 .descripcion{
     font-size: x-large;
@@ -392,7 +409,7 @@ header{
     }
 
     #check:checked ~.checkbtn{
-        color: black;
+        color: lightblue;
     }
     #encabezado nav .ul1 li a:clicked{
         #checked:unchecked ~ .checkbtn{
@@ -419,7 +436,19 @@ header{
     }
 
 }
-@media(min-width:400px){
+@media(min-width: 400px) and (max-width: 800px) {
+    #saludos{
+        font-size: 10px;
+        margin-top:5%;
+    }
+    .texto2{
+        font-size: 25px;
+        left:15%;
+    }
+    
+}
+
+@media(min-width: 150px) and (max-width: 400px) {
     #saludos{
         font-size: 8.5px;
         margin-top:10%;
@@ -428,12 +457,63 @@ header{
         font-size: 20px;
         left:20%;
     }
+    .texto{
+        color:aliceblue;
+        font-size: 15px;
+        margin-left:20vw;
+        margin-top: 5vh;
+    }
+    #encabezado .checkbtn{
+        font-size: 25px;
+        margin-right: 5px;
+    }
+     
+    .section-1{
+        background-size:250px;
+        width: 50px;
+        height:100px;
+        
+        margin-top: 90px;
+        margin-left: 0px; 
+        padding: 150px;
+    }
+    .titulo-sec1{
+        font-size: 15px;
+        margin:0px;
+        padding: 0px;
+        border:0px;
+        margin-left: 125px;
+    }
     
-}
+    /*.acerca-de*/ 
+    .parrafo-2{
+        font-size: 10px;
+        margin:0px;
+        padding: 0px;
+        border:0px;
+        margin-top: 0px;
+    }
+    #descripcion-div{
+        margin: 0px;
+        margin: 0px;
+    }
+    .acerca-imagen{
+        width: 5em;
+        height: 5em;
+        background-color: white;
+        border: 5px solid;
+        border-color: #ffffff/25%;
+        border-radius: 3%;
+        border-style: outset;
+        
+        margin:0px;
+        padding: 0px;
+    }
+ }
 /*fuentes disponibles: 
 font-family: 'Dancing Script', cursive;
 font-family: 'DotGothic16', sans-serif;
-font-family: 'Pacifico', cursive;
+font-family: 'Pacifico', cursive;s
 font-family: 'UnifrakturMaguntia', cursive;
 font-family: 'Pirata One', cursive;
 */
