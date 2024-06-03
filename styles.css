@@ -508,6 +508,9 @@ header{
         margin:0px;
         padding: 0px;
     }
+    header{
+        height:5%
+    }
  }
 /*fuentes disponibles: 
 font-family: 'Dancing Script', cursive;
