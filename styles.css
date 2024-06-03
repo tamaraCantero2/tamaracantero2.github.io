@@ -504,8 +504,7 @@ header{
         border: 5px solid;
         border-color: #ffffff/25%;
         border-radius: 3%;
-        border-style: outset;
-        
+        border-style: outset;     
         margin:0px;
         padding: 0px;
     }
