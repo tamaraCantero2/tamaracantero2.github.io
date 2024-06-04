@@ -481,6 +481,18 @@ header{
         padding-bottom: 235px;
 
     }
+    
+    #encabezado .ul1{
+        position: fixed;
+        width: 90%;
+        height: 80vh;
+        text-align: center;
+    
+        top: 12.5%;
+        left: 100%;
+        transition: 0.5s;
+    }
+
     .titulo-sec1{
         font-size: 15px;
         margin:0px;
@@ -517,7 +529,7 @@ header{
         margin-top: -87px;
     }
     
-    .navbar{}
+    
  }
 
 /*fuentes disponibles: 
