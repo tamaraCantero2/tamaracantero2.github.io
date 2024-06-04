@@ -417,7 +417,6 @@ header{
         }
     }
     .section-1{
-        background-color: magenta;
         display: block;
         text-align: center;
     }
@@ -460,46 +459,53 @@ header{
     .texto{
         color:aliceblue;
         font-size: 15px;
-        margin-left:20vw;
-        margin-top: 5vh;
+        margin-left:55px;
+        margin-top: 35px;
     }
     #encabezado .checkbtn{
         font-size: 25px;
         margin-right: 5px;
     }
+    header{
+        height: 70px;
+    }
      
     .section-1{
-        background-size:250px;
-        width: 50px;
-        height:100px;
+        background-size:270px;
+        width: 295px;
+        height:150px;
         
-        margin-top: 90px;
+        margin-top: 100px;
         margin-left: 0px; 
-        padding: 150px;
+        padding: 0px;
+        padding-bottom: 235px;
+
     }
     .titulo-sec1{
         font-size: 15px;
         margin:0px;
-        padding: 0px;
+        padding:0px;
         border:0px;
-        margin-left: 125px;
+        margin-left: 90px;
+        padding-top: 65px;
     }
     
     /*.acerca-de*/ 
     .parrafo-2{
         font-size: 10px;
         margin:0px;
-        padding: 0px;
+        padding:0px;
         border:0px;
-        margin-top: 0px;
+        margin-left: 55px;
+        margin-right: 40px; 
     }
     #descripcion-div{
         margin: 0px;
         margin: 0px;
     }
     .acerca-imagen{
-        width: 5em;
-        height: 5em;
+        width: 3.45em;
+        height: 3.45em;
         background-color: white;
         border: 5px solid;
         border-color: #ffffff/25%;
@@ -507,10 +513,11 @@ header{
         border-style: outset;     
         margin:0px;
         padding: 0px;
+        margin-left: 210px;
+        margin-top: -87px;
     }
-    header{
-        height:0.5vh;
-    }
+    
+    
  }
 /*fuentes disponibles: 
 font-family: 'Dancing Script', cursive;
