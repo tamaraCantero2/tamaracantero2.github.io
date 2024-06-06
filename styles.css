@@ -558,11 +558,11 @@ header{
     }
 
     .titulo-sec1{
-        font-size: 15px;
+        font-size: 10px;
         margin:0px;
         padding:0px;
         border:0px;
-        margin-left: 90px;
+        margin-left: 75px;
         padding-top: 65px;
         margin-right: 0px;
     }
@@ -575,6 +575,7 @@ header{
         border:0px;
         margin-left: 55px;
         margin-right: 45px;
+        margin-top: 10px;
     }
     #descripcion-div{
         margin: 0px;
@@ -603,6 +604,12 @@ header{
         margin-right: 0px;
     
     }
+    #hotel span img,
+    #contabilidad-casera span img,
+    #activar-inglés span img{
+        width:300px;
+        height: 300px;
+    }
 
     .secciones-proyectos{
         display: grid;
@@ -612,6 +619,7 @@ header{
         padding-top: 70px;
         padding-left: 20px;
         padding-bottom: 1000px;
+        align-items: center;
         img{
             width:150px;
             height:150px
@@ -627,7 +635,7 @@ header{
             padding: 0px;
             margin:0px;
             border: 0px;
-            margin-top: 190px;
+            margin-top: 150px;
             padding: 10px 5px 315px;
             text-align: center;
 
@@ -638,6 +646,7 @@ header{
         
         }
         #hotel{
+            margin-top: 30px;
             height: 50px;
             padding: 10px 5px 315px;
             margin: 0px;
@@ -655,6 +664,7 @@ header{
             border: 0px;
             font-size: 10px;
             text-align: center;
+            margin-top: 70px;
             .texto-proyecto{
                 font-size: 12px;
             }
