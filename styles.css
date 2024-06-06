@@ -271,8 +271,9 @@ header{
     margin-top: 100px;
 }
 #redesList{
-    scroll-behavior: smooth;
+    
     background-color: yellow;
+    
     a{
         /*color:tomato;*/
         color:blue;
@@ -453,7 +454,7 @@ header{
         text-align: center;
     
         top: 12.5%;
-        left: 100%;
+        left: 50%;
         transition: 0.5s;
     }
     #check:checked ~ .ul1{
@@ -551,7 +552,7 @@ header{
         height: 80vh;
         text-align: center;
     
-        top: 12.5%;
+        top: 9.5%;
         left: 100%;
         transition: 0.5s;
     }
@@ -568,7 +569,7 @@ header{
     
     /*.acerca-de*/ 
     .parrafo-2{
-        font-size: 9.2px;
+        font-size: 7px;
         margin:0px;
         padding:0px;
         border:0px;
@@ -647,6 +648,17 @@ header{
                 font-size: 12px;
             }
         }
+        #activar-inglés{
+            height: 50px;
+            padding: 10px 5px 315px;
+            margin: 0px;
+            border: 0px;
+            font-size: 10px;
+            text-align: center;
+            .texto-proyecto{
+                font-size: 12px;
+            }
+        }
         margin-right: 0px;
     
     }
@@ -687,8 +699,10 @@ header{
         border-style: dashed;
         padding: 10px;
         width:242.5px;
+        margin-left: 0px;
         a{
             font-size: 15px;
+
         }
         margin-right: 0px;
         a:hover{
