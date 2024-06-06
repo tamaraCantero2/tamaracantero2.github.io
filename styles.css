@@ -612,14 +612,15 @@ header{
     }
 
     .secciones-proyectos{
-        display: grid;
-        grid-template-columns: 200px;
+        display: block;
+        /*grid-template-columns: 200px;
         grid-template-rows: 200px;
-        padding: 0px;
+        */padding: 0px;
         padding-top: 70px;
         padding-left: 20px;
         padding-bottom: 1000px;
         align-items: center;
+        padding-right: 20px;
         img{
             width:150px;
             height:150px
@@ -635,7 +636,7 @@ header{
             padding: 0px;
             margin:0px;
             border: 0px;
-            margin-top: 150px;
+            margin-top: 50px;
             padding: 10px 5px 315px;
             text-align: center;
 
@@ -646,7 +647,7 @@ header{
         
         }
         #hotel{
-            margin-top: 30px;
+            margin-top: 130px;
             height: 50px;
             padding: 10px 5px 315px;
             margin: 0px;
