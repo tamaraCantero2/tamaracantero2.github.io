@@ -218,23 +218,30 @@ header{
     margin: 290px;
     margin-top: 0px;
     margin-right: 350px;
-    .Java,.Sql,.Cibersecurity,.Css{
+    .Java, .Python{
         border-top-left-radius: 20px;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 20px;
-        
     }
-    .HibernateYJpa,.Python,.Html,.Javascript{
+    .Javascript,.HibernateYJpa{
         border-top-right-radius: 20px;
         border-top-left-radius: 0px;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 0px;
     }
-    .Javascript{
+    .Html{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    
         border-bottom-right-radius: 20px;
     }
 }
-
+.botonCers{
+    border: 0px;
+    background-color:inherit;
+    font-family: inherit;
+    font-size: 20px;
+}
 .habilidad{
     background-color: #f0f0f0;
     text-align: center;
@@ -246,7 +253,7 @@ header{
         transition:0.2s;
         border-radius: 15px;
     }
-
+    
 }
 
 #redes1{
@@ -258,11 +265,13 @@ header{
     margin-left: 400px;
     font-size: 30px;
     border-radius: 30px;
+    margin-bottom: 10px;
 }
 #div-redes{
     margin-top: 100px;
 }
 #redesList{
+    scroll-behavior: smooth;
     background-color: yellow;
     a{
         /*color:tomato;*/
@@ -275,6 +284,10 @@ header{
     a :visited{
         color:rgb(95, 0, 95);
     }
+    margin-top: 14px;
+    width: 300px;
+    margin-left: 475px;
+    padding-top: 8px;
 }
 .footer2{
     position: absolute;
