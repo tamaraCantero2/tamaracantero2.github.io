@@ -454,7 +454,7 @@ header{
         text-align: center;
     
         top: 12.5%;
-        left: 50%;
+        left: 100%;
         transition: 0.5s;
     }
     #check:checked ~ .ul1{
@@ -700,6 +700,7 @@ header{
         padding: 10px;
         width:242.5px;
         margin-left: 0px;
+
         a{
             font-size: 15px;
 
@@ -708,6 +709,7 @@ header{
         a:hover{
             color: #157e00;
         }
+        
     }
     #mensajeria{
         margin-left: 0px;
