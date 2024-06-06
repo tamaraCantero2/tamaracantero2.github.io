@@ -173,7 +173,7 @@ header{
     text-align: center;
 }
 
-#tateti{
+#contabilidad-casera{
     background: linear-gradient(145deg,white,red,blue,white);
 }
 /*.proyecto:hover{
@@ -593,12 +593,13 @@ header{
             width:150px;
             height:150px
         }
+        
         .proyecto{
             padding: 0px;
             margin: 0%;
             border: 0px;
         }
-        #tateti{
+        #contabilidad-casera{
             height: 50px;
             padding: 0px;
             margin:0px;
@@ -696,3 +697,5 @@ font-family: 'Pacifico', cursive;s
 font-family: 'UnifrakturMaguntia', cursive;
 font-family: 'Pirata One', cursive;
 */
+
+/*6 de ancho y 10 de largo*/
