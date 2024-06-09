@@ -43,10 +43,10 @@
 
           <ul class="ul1">
             <li><a href="index.html"> Inicio</a></li>
-            <li><a href="index.html">Acerca de mi!</a></li>
-            <li><a href="#habilidades">mis habilidades</a></li>
-            <li><a href="#p-redes">redes</a></li>
-            <li><a href="#contactame">contáctame!</a></li>
+            <li><a href="index.html">Informacion Personal</a></li>
+            <li><a href="#introHabi">Mis Estudios</a></li>
+            <li><a href="#p-redes">Redes</a></li>
+            <li><a href="#contactarse">Contáctarse</a></li>
           </ul>
         </nav>
       </header>
@@ -384,6 +384,7 @@
       </main>
       
       <footer>
+        <div id="introHabi"> <p></p></div>
         <div id="habilidades">
           <h2 id="tituloHabilidades" class="tituloHabis">ESTUDIOS</h2>
         
@@ -428,7 +429,7 @@
 
             </ol>
         </div>
-        
+        <p id="p-redes"></p>
         <div id="div-redes">
           <h3 id="redes1">Redes</h3>
           <ul id="redesList">
@@ -438,6 +439,7 @@
             <li>Github:<a id="linkGithub" href="https://github.com/tamaracantero2">tamaracantero2</a></li>
           </ul>
         </div>
+        <p id="contactarse"></p>
         <h3 id="contacto">Contacto</h3>
 
         <div id="mensajeria">
@@ -450,9 +452,9 @@
               <label for="correo" class="correolabel">Tu correo:</label>
               <input type="email" id="correo" required />
             </div>
-          --><div id="e1">
-              <label for="mensaje1" class="mensaje1">Tu mensaje:</label>
-              <textarea name="mensaje" id="mensaje1" required></textarea>
+          --><div id="e1" class="z1">
+              <label for="mensaje1" id="tituloParaM1"class="mensaje1">Tu mensaje:</label>
+              <textarea name="mensaje" id="mensaje1"></textarea>
             </div>
             <div id="e2">
               <button TYPE="submit">Enviar</button>
